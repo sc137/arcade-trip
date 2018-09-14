@@ -1,0 +1,61 @@
+/*
+ * Globals
+ */
+
+/* Arcade font */
+
+@font-face {
+    font-family: 'ARCADECLASSIC';
+    src: url(arcadeclassic/ARCADECLASSIC.TTF) format('truetype');
+}
+
+h1 {
+    letter-spacing: 1.2px;
+    font-size: 5em;
+}
+
+board, p {
+    letter-spacing: 1.5px !important;
+    font-size: 2.5em !important;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #090909;
+}
+
+body {
+  color: #fafa11;
+  font-family: 'ArcadeClassic', 'Courier'
+}
+
+main {
+    margin: 0 auto;
+}
+
+table {
+    margin: 0px auto !important;
+    width: 100%;
+}
+
+.date {
+    color: red;
+}
+
+.scores {
+    color: green;
+}
+
+.subtotal {
+    color: blue;
+}
+
+scores, td {
+    font-size: 1.5em;
+    letter-spacing: 1.5px;
+}
+
+table .alien {
+    width=10px
+}
